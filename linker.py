@@ -7,7 +7,8 @@ def find(name, path):
             return os.path.join(root, name)
 
 def main():
-    file_path = find('linker.py', '.')
+    file_to_link = ''
+    file_path = find(file_to_link, '.')
     print(file_path)
 
 main()
